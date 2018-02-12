@@ -1,14 +1,6 @@
 <?php
-	/*
-	Telegram.me/OneProgrammer
-	Telegram.me/SpyGuard
-	Github.com/mehrab-wj/SimplePHPBot
-	----[ Lotfan Copy Right Ro Rayat Konid <3 ]----
-	############################################################################################
-	# if you need Help for develop this source , You Can Send Message To Me With @SpyGuard_BOT #
-	############################################################################################
-	*/
-	define('API_KEY','**TOKEN**');
+
+	define('API_KEY','525091611:AAEiF4xh2cxTbtY7MB4Xw905budxbF-Ek-c');
 	//----######------
 	
 	function makereq($method,$datas=[]){
@@ -58,7 +50,7 @@
 	$_forward = file_get_contents("data/setting/forward.txt");
 	$_joingp = file_get_contents("data/setting/joingp.txt");
 	//------------
-	$admin = **ADMIN**;
+	$admin = 390642917;
 	$bottype = "**free**";
 	$step = file_get_contents("data/".$from_id."/step.txt");
 	$type = file_get_contents("data/".$from_id."/type.txt");
