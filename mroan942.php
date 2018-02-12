@@ -1,6 +1,6 @@
 <?php
 ob_start();
-$API_KEY='531801815:AAHk_2OBGLT7Yn_aKBdcCfvz5I9gZNiVxdQ';
+$API_KEY='525091611:AAEiF4xh2cxTbtY7MB4Xw905budxbF-Ek-c';
 echo "api.telegram.org/bot$API_KEY/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME'];
 define('API_KEY',$API_KEY);
 function AntarSD($method,$datas=[]){
@@ -59,7 +59,7 @@ $message_id = $update->callback_query->message->message_id;
 $data = $update->callback_query->data;
 }
 //حصانة الادمنيه
-$sudo = "175279237";
+$sudo = "390642917";
 $info = json_decode(file_get_contents("https://api.telegram.org/bot".API_KEY."/getChatMember?chat_id=$chat_id&user_id=".$from_id), true);
 $group = $info['result']['status'];
 $admin = "administrator";
